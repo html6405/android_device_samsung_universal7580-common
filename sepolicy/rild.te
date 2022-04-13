@@ -1,5 +1,3 @@
-permissive rild;
-
 # Allow rild to change perms
 allow rild self:capability chown;
 
