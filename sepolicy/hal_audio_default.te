@@ -1,2 +1,5 @@
-allow hal_audio_default amplifier_device:chr_file { read write };
-allow hal_audio_default default_prop:file getattr;
+allow hal_audio_default amplifier_device:chr_file { read open write ioctl };
+allow hal_audio_default default_prop:file { open read getattr };
+allow hal_audio_default mediaserver_exec:file read;
+allow hal_audio_default rild:unix_stream_socket connectto;
+allow hal_audio_default mediaserver_exec:file getattr;
