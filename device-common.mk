@@ -27,7 +27,6 @@ PRODUCT_PACKAGES += \
     tinymix \
     android.hardware.audio@7.0-impl \
     android.hardware.audio.effect@7.0-impl \
-    android.hardware.audio.effect@2.0-service \
     android.hardware.audio.service \
 
 PRODUCT_COPY_FILES += \
@@ -49,16 +48,10 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl-legacy \
     android.hardware.camera.provider@2.4-service
 
-# Configstore
-PRODUCT_PACKAGES += \
-    android.hardware.configstore@1.0-impl \
-    android.hardware.configstore@1.0-service
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
-    android.hardware.drm@1.0-service \
-    android.hardware.drm@1.3-service.clearkey
+    android.hardware.drm@1.0-service
 
 # Flat device tree for boot image
 PRODUCT_HOST_PACKAGES += \
@@ -94,7 +87,6 @@ PRODUCT_PACKAGES += \
 
 # Keymaster
 PRODUCT_PACKAGES += \
-    keystore.exynos5 \
     android.hardware.keymaster@3.0-impl \
     android.hardware.keymaster@3.0-service
 
@@ -203,12 +195,7 @@ PRODUCT_PACKAGES += \
     libexynoscamera_shim \
     libstagefright_shim \
     mediaserver.rc \
-    libui_shim \
     libcutils_shim
-
-# TextClassifier
-PRODUCT_PACKAGES += \
-    textclassifier.bundle1
 
 # Touch features
 PRODUCT_PACKAGES += \
@@ -227,8 +214,6 @@ PRODUCT_PACKAGES += \
     wifiloader \
     hostapd \
     wificond \
-    wifilogd \
-    wlutil \
     libwpa_client \
     wpa_supplicant \
     wpa_supplicant.conf \
