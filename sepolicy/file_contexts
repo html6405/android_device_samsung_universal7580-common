@@ -172,3 +172,6 @@
 
 # Gatekeeper
 /(vendor|system/vendor)/bin/hw/android\.hardware\.gatekeeper@1\.0-service\.software			u:object_r:hal_gatekeeper_default_exec:s0
+
+# audio
+/(vendor|system/vendor)/bin/hw/android\.hardware\.audio\.service\.universal7580           u:object_r:hal_audio_default_exec:s0
