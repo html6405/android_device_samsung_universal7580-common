@@ -170,7 +170,7 @@ PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
 
 # SamsungDoze
-PRODUCT_PACKAGES += \
+# PRODUCT_PACKAGES += \
     SamsungDoze
 
 # SEC
