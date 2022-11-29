@@ -17,6 +17,8 @@ lib/libfloatingfeature.so
 
 # Graphics
 vendor/lib/egl/libGLES_mali.so
+lib/egl/libexynosdisplay.so
+lib/hw/hwcomposer.exynos5.so
 
 # protobuf
 # precompiled from https://gitlab.com/Exynos7580/android_external_protobuf-compat-2.6
