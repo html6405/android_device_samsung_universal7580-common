@@ -26,7 +26,9 @@ PRODUCT_PACKAGES += \
     tinymix \
     android.hardware.audio@7.0-impl \
     android.hardware.audio.effect@7.0-impl \
-    android.hardware.audio.service \
+    android.hardware.audio.service.universal7580 \
+    android.hardware.bluetooth.audio@2.0-impl \
+    audio.bluetooth.default \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_policy.conf \
