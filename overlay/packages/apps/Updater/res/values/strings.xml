@@ -18,7 +18,7 @@
 
     <string name="updater_server_url" translatable="false">http://html6405.ddns.net/{device}/html6405/LOS20/{device}.json</string>
 
-    <string name="menu_changelog_url" translatable="false">https://forum.xda-developers.com/t/rom-unofficial-12-0-j7elte-lineageos-19-0-alpha.4403867/post-86439529</string>
+    <string name="menu_changelog_url" translatable="false">https://forum.xda-developers.com/t/rom-13-j7elte-j7xlte-unofficial-lineageos-20-0-alpha.4524889/post-87796719</string>
 
 </resources>
 
