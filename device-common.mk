@@ -214,6 +214,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
 
+# prebuilt app
+PRODUCT_PACKAGES += \
+    AuroraStore
+
 # Wifi
 PRODUCT_PACKAGES += \
     wifiloader \
